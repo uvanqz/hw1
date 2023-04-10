@@ -40,7 +40,7 @@ while i < len(data):
     try:
         otvet = int(otvet_int)
     except ValueError:
-        print('Вводите число!')
+        print('Вводите число !')
         continue
     if otvet == int(right_answer):
         print('Правильно!\n')
